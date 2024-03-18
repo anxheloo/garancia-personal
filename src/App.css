@@ -1,0 +1,22 @@
+
+
+@font-face {
+  font-family: 'Memphis-Bold';
+  src: url('./assets/fonts/MemphisLTStd-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Memphis-ExtraBold';
+  src: url('./assets/fonts/MemphisLTStd-ExtraBold.otf');
+}
+
+@font-face {
+  font-family:'Grotesk' ;
+  src:url('./assets/fonts/NHaasGroteskDSPro-75Bd.ttf');
+}
+
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  width: 0em;
+}

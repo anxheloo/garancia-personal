@@ -1,0 +1,51 @@
+.NotFound {
+    background-image:url('../assets/img/Page_2/1x/Asset\ 6-100.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-family: 'Memphis-bold';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 360px;
+    padding-top: 200px;
+}
+
+.NotFound p{
+    color: white !important;
+}
+.NotFound p{
+    color: white !important;
+}
+.firstLine{
+    font-size: 200px;
+}
+.secondLine{
+    font-size: 25px;
+    margin: -50px;
+}
+
+/* Tablet screens */
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .NotFound {
+        padding-bottom: 200px;
+        padding-top: 150px;
+    }
+    .firstLine{
+        font-size: 100px;
+    }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 800px)  {
+    .NotFound {
+        padding-bottom: 200px;
+        padding-top: 200px;
+    }
+    .firstLine{
+        font-size: 80px;
+    }
+}

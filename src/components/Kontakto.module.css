@@ -1,0 +1,44 @@
+.bckggreen{
+    background-color: #dbff69;
+}
+.tituj{
+    font-size: clamp(16px,42px,44px);
+    font-family: 'Memphis Extra Bold';
+    color: #033E3C;
+    max-width: 520px;
+}
+.colgreen{
+    color: #033E3C;
+    font-size: clamp(16px,23px,24px);
+}
+.kontakti img{
+    object-fit: cover;
+}
+.maxw600px{
+    max-width: 640px;
+    font-family: 'Grotesk';
+}
+.lineh1{
+    line-height: 1;
+}
+.kontakti input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+/* Tablet screens */
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+.tituj{
+    font-size: 30px !important;
+}
+.colgreen{
+    font-size: 22px !important;
+}
+}
+@media screen and (max-width: 800px) {
+    .tituj{
+        font-size: clamp(16px,25px,42px);
+    }
+    .colgreen{
+        font-size: clamp(16px,15px,24px);
+    }
+}

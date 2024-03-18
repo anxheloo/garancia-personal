@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Memphis Normal";
+  src: local("MemphisLTStdMedium"),
+    url("./assets/fonts/MemphisLTStd/MemphisLTStdMedium/Memphis\ LT\ Std\ Medium.otf");
+}
+@font-face {
+  font-family: "Memphis Bold";
+  src: local("MemphisLTStdBold"),
+    url("./assets/fonts/MemphisLTStd/MemphisLTStdBold/Memphis\ LT\ Std\ Bold.otf");
+}
+@font-face {
+  font-family: "Memphis Extra Bold";
+  src: local("MemphisLTStdBold"),
+    url("./assets/fonts/MemphisLTStd/MemphisLTStdExtraBold/Memphis\ LT\ Std\ Extra\ Bold.otf");
+}
+
+html {
+  scroll-behavior: unset !important;
+}
+body {
+  font-family: "Memphis Normal";
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f6f0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.auth_page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+  overflow: hidden;
+  /* background-image: url('./assets/img/Page_2/1x/Asset\ 6-100.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  margin: 0;
+  font-size: 32px;
+  font-family: "Memphis Normal";
+}
+.auth_page a {
+  text-decoration: none;
+  font-size: 32px;
+  font-family: "Memphis Normal";
+  font-weight: bold;
+  color: inherit;
+}
+.auth_page a:hover {
+  color: inherit;
+}
+
+.footer_global_none {
+  display: none;
+}

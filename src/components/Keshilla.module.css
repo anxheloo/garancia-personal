@@ -1,0 +1,39 @@
+.keshila{
+    left: 75px;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(17px,32px,33px);
+    font-family: 'Memphis Extra Bold';
+}
+.wmaxcont{
+    width: max-content;
+}
+.imgfit{
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .keshila{
+        left: 32px;
+        top: 60px;
+        font-size: clamp(13px,16px,23px);
+    }
+    
+    
+}
+
+@media  screen and (min-width: 769px) and (max-width: 1045px) {
+    .keshila{
+        left: 35px;
+        top: 100px;
+        font-size: clamp(13px,16px,33px);
+    }
+}
+@media  screen and (min-width: 1050px) and (max-width: 1350px) {
+    .keshila{
+        left: 62px;
+        top: 100px;
+        font-size: clamp(13px,24px,33px);
+    }
+}

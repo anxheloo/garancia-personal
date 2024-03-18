@@ -1,0 +1,78 @@
+
+.practiceDesc h1{
+    color: #b382fe;
+    font-family: "Memphis-Bold";
+    font-size: 54px;
+    
+}
+.customChange> div > div {
+    padding: 0 30px 100px 30px !important;
+   }
+.practiceCon{
+    background-color: #F8F6F0;
+    padding: 0 !important;
+}
+.rightSection img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+.practiceDesc{
+    padding: 100px 65px 100px 100px !important;
+    line-height: 38px;
+}
+.rightSection img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+.practiceBtn >div a{
+    background-color: #b382fe !important;
+}
+@media (min-width: 992px) {
+    .desktopFixed {
+      position: fixed;
+      width: 100%;
+      z-index: 999999999999;
+      top: 0;
+    }
+    .image{
+        margin-top: 8rem;
+    }
+  }
+  
+@media only screen and (max-width: 800px)  {
+    .practiceDesc{
+        padding: 50px 3rem !important;
+        
+    }
+    .rightSection img{
+        width: 100%;
+    } 
+    .practiceBtn{
+        padding-top: 2rem !important;
+    }
+    .practiceDesc h1{
+       
+        line-height: 51px;
+    }
+    .customChange> div > div {
+        padding: 2rem !important;
+       }
+}
+
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .practiceDesc{
+        padding: 50px 50px 50px 50px !important;
+        line-height: 38px;
+    }
+    .practiceBtn{
+        padding-top: 0 !important;
+    }
+    .arsimiContainer >div{
+        padding: 30px;
+    }
+    h1 {
+        font-size:38px !important;
+    }
+}

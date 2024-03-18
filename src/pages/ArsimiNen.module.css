@@ -1,0 +1,113 @@
+.arsimiNContainer{
+    width:100% !important;
+}
+.paddingCont{
+    padding: 3rem 3rem 0 3rem;
+}
+.practiceCon{
+    background-color: #F8F6F0;
+    padding: 0 !important;
+}
+.rightSection img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+.rightSection img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+.practiceDesc h1{
+    color: #b382fe;
+    font-family: "Memphis-Bold";
+    font-size: 54px;
+}
+.practiceDesc{
+    /* padding: 100px 199px 100px 100px !important; */
+    /* padding: 100px 199px 100px 100px !important; */
+    line-height: 38px;
+}
+.practiceBtn >div a{
+    background-color: #b382fe !important;
+}
+
+
+.ListContainer:last-child{
+    padding-bottom: 80px;
+}
+.ListContainer{
+    padding-bottom: 100px;
+    background-color: #F8F6F0;
+}
+.paddingCont{
+    margin-left: 50px;
+}
+.ListContainer p{
+    text-align: center;
+    font-size: 55px;
+    line-height: 60px;
+    color: #FE4B00;
+    font-family: 'Memphis Bold';
+    padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    .desktopFixed {
+      position: fixed;
+      width: 100%;
+      z-index: 9999999999999;
+      top: 0;
+    }
+    .image{
+        margin-top: 8rem;
+    }
+  }
+  
+
+@media only screen and (max-width: 800px)  {
+    .practiceDesc{
+        padding: 50px 3rem !important;
+        
+    }
+    .paddingCont{
+        padding: 0;
+        margin-left: 0 !important;
+    }
+    .rightSection img{
+        width: 100%;
+    } 
+    .practiceBtn{
+        padding-top: 2rem !important;
+    }
+    .ListContainer{
+        padding: 3rem !important;
+    }
+    
+      .ListCol{
+        padding-bottom: 80px !important;
+      }
+      .ListColEnd2 div:first-child{
+        padding-bottom: 0 !important;
+    }
+}
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .practiceDesc{
+        padding: 50px 50px 50px 50px !important;
+        line-height: 38px;
+    }
+    .practiceBtn{
+        padding-top: 0 !important;
+    }
+    .ListCol{
+        flex: 0 0 100% !important; 
+        padding: 0 !important;
+    }
+    .arsimiNContainer >div {
+        padding: 30px 0 !important;
+    }
+    .paddingCont{
+        margin-left: 0 !important;
+        padding-right: 0;
+    }
+}

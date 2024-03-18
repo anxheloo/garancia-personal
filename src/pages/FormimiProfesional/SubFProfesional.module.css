@@ -1,0 +1,341 @@
+.stripeContainer{
+    background-color: #DFFF74;
+    padding: 70px 0px !important;
+    margin: 0 auto !important;
+}
+.stripeInfo{
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Grotesk';
+    color: #033E3C;
+}
+.numbers{
+    text-align: center;
+    font-size: 100px;
+    line-height: 120px;
+    font-family: 'Memphis-Bold';
+}
+/* .firstContainer{
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+/* .secondContainer .stripeInfo{
+    padding-left: 105px !important;
+    padding-right: 105px !important;
+} */
+.image img{
+    width: 100%;
+}
+.practiceCon{
+    background-color: #F8F6F0;
+    padding: 0 !important;
+}
+
+.practiceDesc{
+    padding: 100px 199px 100px 100px !important;
+    line-height: 38px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.praktikaContainer > div{
+    background-color: #00B907 !important;
+}
+.practiceInfo{
+    padding: 100px 350px 100px 290px;
+    color: #033E3C;
+    background-color: #F8F6F0;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Grotesk';
+}
+.rightSection img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+.VetepunsimPhoto{
+    max-height: 715px !important;
+}
+
+.sectionThree > div > .rightSection{
+    padding: 80px 80px 80px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSection p{
+    color: #033E3C;
+    font-family: 'Grotesk';
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.sectionThree{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #F8F6F0;
+}
+.programin img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.practiceBtn > div > a {
+    background-color: #00B907 !important;
+}
+
+.ProfAdvice > div > div > div:nth-child(2) {
+ padding: 0 200px !important;
+}
+.ProfAdvice >div >  div:nth-child(1) {
+ padding: 0px 100px 80px 100px !important;
+}
+.progrmAdvice > div >div{
+ padding: 0px 115px 50px 115px !important;
+}
+.progrmAdvice > div >div > div:nth-child(2){
+ padding: 10px 130px !important;
+}
+.progrmAdvice > div >div > div:nth-child(1){
+ padding: 0px !important;
+}
+/* CODING PROGRAM */
+.programContainer{
+    background-color: #DFFF74 !important;
+    padding: 100px 150px 100px 150px !important;
+}
+.programContainerTitle{
+    color: #033E3C;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Memphis Extra Bold' !important;
+    padding-bottom: 65px;
+}
+.programContainerLinks a{
+    color: #033E3C;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: 'Memphis Extra Bold' !important;
+    text-decoration: none;
+}
+.programContainerLinks a:hover{
+    color: #033E3C;
+}
+.programContainerLinks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 80px 150px;
+}
+.programContainerLinks hr{
+    opacity: 1;
+    border: 1.5px solid;
+    margin-top: 30px;
+}
+.programingDescCon{
+    background-color: #F8F6F0;
+    padding: 100px 150px 100px 150px !important;
+}
+.programingDesc{
+    margin: 0;
+}
+.progrmAdvice > div:nth-child(2){
+    padding: 0px 30px !important;
+}
+.progrmAdvice .adviceConDesc{
+    padding: 0px 30px !important;
+}
+.digitalCourse{
+    font-size: 54.5px !important;
+    line-height: 60px;
+    text-align: center;
+    padding-bottom: 0 !important;
+}
+.number{
+    max-width: 78px;
+    width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+    height: 100%;
+}
+.digitalCourseTitle p {
+    font-size: 48px;
+    line-height: 57px;
+    color: #033E3C;
+    font-family: 'Memphis Bold';
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 5rem;
+}
+@media (min-width: 992px) {
+    .desktopFixed {
+      position: fixed;
+      width: 100%;
+      z-index: 999999999999;
+      top: 0;
+    }
+    .image{
+        margin-top: 8rem;
+    }
+  }
+
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .stripeContainer{
+        padding: 50px 170px !important;
+    }
+
+    .firstContainer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .secondContainer .stripeInfo{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .practiceDesc{
+        padding: 50px 50px 50px 50px !important;
+        line-height: 38px;
+    }
+    .practiceInfo{
+        padding: 50px 5rem 50px 5rem;
+    }
+    .ProfAdvice > div > div > div:nth-child(2) {
+        padding: 0 3rem !important;
+    }
+    .ProfAdvice >div >  div:nth-child(1) {
+        padding: 0px !important;
+    }
+    .progrmAdvice > div >div{
+        padding: 2rem !important;
+    }
+    .progrmAdvice > div >div > div:nth-child(2){
+        padding: 1.5rem 0px 0px 0px !important;
+    }
+    .progrmAdvice > div >div > div:nth-child(1){
+        padding: 0px !important;
+    }
+    .digitalCourseTitle p {
+        padding-right: 3rem;
+    }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 800px)  {
+    .stripeContainer{
+        padding: 30px 3rem !important;
+    }
+    .stripeInfo{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .numbers{
+        font-size: 50px;
+        line-height: 54px;
+    }
+    .firstContainer{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .secondContainer .stripeInfo{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .practiceDesc{
+        padding: 50px 3rem !important;
+        
+    }
+    .rightSection img{
+        width: 100%;
+    }
+    .practiceBtn{
+        padding-top: 2.5rem !important;
+    }
+    .practiceInfo{
+        padding: 50px 3rem;
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .sectionThree > div > .rightSection{
+        padding: 80px 3rem 80px 3rem;
+    }
+    .rightSection p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .ProfAdvice > div > div > div:nth-child(2) {
+        padding: 0 3rem !important;
+    }
+    .ProfAdvice >div >  div:nth-child(1) {
+        padding: 0px !important;
+    }
+    .progrmAdvice > div >div{
+        padding: 2rem !important;
+    }
+    .progrmAdvice > div >div > div:nth-child(2){
+        padding: 1.5rem 0px 0px 0px !important;
+    }
+    .progrmAdvice > div >div > div:nth-child(1){
+        padding: 0px !important;
+    }
+    /* CODING PROGRAM */
+    .programContainer{
+        background-color: #DFFF74 !important;
+        padding: 3rem !important;
+    }
+    .programContainerTitle{
+        color: #033E3C;
+        font-size: 25px;
+        line-height: 30px;
+        font-family: 'Memphis Extra Bold' !important;
+        padding-bottom: 30px;
+    }
+    .programContainerLinks a{
+        color: #033E3C;
+        font-size: 20px;
+        line-height: 25px;
+        font-family: 'Memphis Extra Bold' !important;
+        text-decoration: none;
+    }
+    .programContainerLinks a:hover{
+        color: #033E3C;
+    }
+    .programContainerLinks {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .programContainerLinks hr{
+        opacity: 1;
+        border: 1.5px solid;
+        margin-top: 20px;
+    }
+    .programingDescCon{
+        background-color: #F8F6F0;
+        padding: 3rem !important;
+    }
+
+    .digitalCourse{
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+    .number{
+        margin: 0 auto;
+    }
+    .digitalCourseTitle p {
+        font-size: 45px;
+        line-height: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+    .digitalCourseTitle:first-child {
+        padding-bottom: 2rem !important;
+    }
+    .hours {
+        font-size: 34px !important;
+    }
+}

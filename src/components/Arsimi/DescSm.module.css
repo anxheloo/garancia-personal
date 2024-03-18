@@ -1,0 +1,112 @@
+.ProfPracticesCon{
+    display: flex;
+    background-color: #FE4B00;
+    padding: 150px 0 ;
+}
+.ProfPracticesDesc{
+    padding-left: 100px;
+}
+.ProfPracticeDescCon{
+    padding-right: 400px;
+}
+.arrowImg {
+    max-width: 320px !important;
+    width: 100%;
+    max-height: 250px !important;
+    height: 100%;
+ }
+ .arrowImg{
+    padding-left: 100px;
+}
+.title{
+    color: #033E3C;
+    font-size: 78px;
+    line-height: 80px;
+    font-family: "Memphis Bold";
+    padding-bottom: 40px;
+    width: 90%;
+}
+.desc{
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: "Grotesk";
+    padding-right: 60px;
+}
+.desc a{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.desc a:hover{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 800px)  {
+    .arrowImg{
+        padding-left: 0px;
+    }
+    .arrowImg img{
+        max-width: 150px !important;
+        width: 100% !important;
+        max-height: 150px !important;
+        height: 100% !important;
+    }
+    .title{
+        color: #033E3C;
+        font-size: 48px;
+        line-height: 50px;
+        font-family: "Memphis Bold";
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .ProfPracticesCon{
+        padding: 50px 3rem !important;
+        flex-direction: column;
+    }
+    .ProfPracticesCon img{
+        max-width: 200px;
+        height: auto;
+        width: 100%;
+    }
+    .ProfPracticesDesc{
+        padding-left: 0px;
+    }
+    .ProfPracticeDescCon{
+        padding-right:0px !important;
+    }
+    .desc{
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Grotesk";
+        padding-right: 0rem !important;
+    }
+    .desc a{
+        color: #FFFFFF;
+        font-weight: bolder;
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+}
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .ProfPracticeDescCon{
+        padding: 20px 0 !important;
+
+    }
+    .desc{
+        padding-right: 50px;
+        font-size: 27px;
+    }
+    .title{
+        width: 100%;
+        font-size: 38px;
+        line-height: 55px;
+        padding-bottom: 10px;
+    }
+    .ProfPracticesDesc{
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    
+}

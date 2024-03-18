@@ -1,0 +1,82 @@
+#card2Element {
+  width: 100%;
+  max-width: 280px;
+  min-width: 280px;
+  height: 100%;
+  height: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  margin: auto;
+  /* margin-left: 80px; */
+}
+
+@media only screen and (min-width: 424px) {
+  #card2Element {
+    max-width: 320px;
+    min-width: 320px;
+    height: 350px;
+    padding: 20px;
+    /* margin-left: 80px; */
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  #card2Element {
+    /* margin-left: 160px; */
+    /* margin: auto; */
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  #card2Element {
+    /* max-width: 330px; */
+    /* margin-left: 180px; */
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  #card2Element {
+    max-width: 340px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1000px) {
+  #card2Element {
+    max-width: 320px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #card2Element {
+    max-width: 330px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  #card2Element {
+    max-width: 370px;
+  }
+}
+
+@media only screen and (min-width: 1599px) {
+  #card2Element {
+    max-width: 320px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  #card2Element {
+    max-width: 340px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  #card2Element {
+    max-width: 370px;
+  }
+}

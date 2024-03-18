@@ -1,0 +1,320 @@
+#eventSpecifikContainer {
+  width: 100%;
+}
+
+#eventSpecifikDetailsSection {
+  background-color: #fe4b00;
+  width: 100%;
+  height: 70vh;
+}
+
+#firstWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+#imageContainer {
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  /* margin: auto; */
+}
+
+#firstSectionDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#eventSpecifikTitle {
+  font-family: "Memphis Bold";
+  font-size: 30px;
+  color: #dbff69;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  text-transform: uppercase;
+  /* margin: auto; */
+}
+
+#eventSpecifikLocationDataTimeContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Memphis Normal";
+  font-size: 14px;
+  color: white;
+}
+
+#eventSpecifikLocation {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#eventSpecifikTime {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#socialMediaIcons {
+  display: flex;
+  gap: 7px;
+}
+
+#socialMediaIconContainer {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#eventDescriptionContainer {
+  background-color: #f7f5ee;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+#arrowDownImg {
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 200px;
+  /* height: 200px; */
+  display: none;
+}
+
+#eventDescriptionTitle {
+  color: #8f68cb;
+  font-family: "Memphis Extra Bold";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#eventDescription {
+  color: black;
+  font-family: "Memphis Normal";
+  font-size: 18px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#eventSpecifikDetailsSection2 {
+  margin-top: 40px;
+  color: #023e3c;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#ditaOraVendi {
+  font-family: "Memphis Bold";
+  font-size: 20px;
+}
+
+#eventSpecifikDetailsSection2Location {
+  font-family: "Memphis Normal";
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#eventSpecifikDetailsSection2DataOra {
+  font-family: "Memphis Normal";
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#organizatoriContainer {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px -15px 15px -10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+#organizatoriLabel {
+  font-family: "Memphis Bold";
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+}
+
+#organizatoriText {
+  font-family: "Memphis Bold";
+  font-size: 18px;
+  color: #b382fe;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#organizatoriDescription {
+  font-family: "Memphis Normal";
+  font-size: 14px;
+  color: black;
+}
+
+#eventSpecifikSliderContent {
+  background-color: #b382fe;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+#eventSpecifikSliderTitle {
+  font-family: "Memphis Extra Bold";
+  text-transform: uppercase;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 640px) {
+  #imageContainer {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #eventSpecifikTitle {
+    max-width: 400px;
+  }
+
+  #imageContainer {
+    /* max-width: 350px; */
+  }
+
+  #organizatoriLabel {
+    font-size: 20px;
+  }
+
+  #organizatoriText {
+    font-size: 28px;
+  }
+
+  #organizatoriDescription {
+    font-size: 20px;
+  }
+
+  #eventSpecifikSliderTitle {
+    font-size: 28px;
+  }
+
+  #eventDescriptionContainer {
+    /* padding-top: 200px; */
+    padding-bottom: 60px;
+  }
+
+  #ditaOraVendi {
+    font-size: 28px;
+  }
+
+  #eventDescription {
+    font-size: 20px;
+  }
+
+  #eventDescriptionTitle {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1280px) {
+  #eventSpecifikSliderContent {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #firstWrapper {
+    flex-direction: row;
+  }
+
+  #imageContainer {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  #eventSpecifikDetailsSection {
+    height: 50vh;
+    /* position: relative; */
+  }
+
+  #firstWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* align-items: center; */
+    gap: 60px;
+  }
+
+  #imageContainer {
+    max-width: 500px;
+    position: absolute;
+    top: -100px;
+    z-index: 1000;
+    left: 0px;
+  }
+
+  #firstSectionDiv1 {
+    width: 40%;
+    position: relative;
+    background-color: white;
+  }
+
+  #firstSectionDiv2 {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 10px;
+  }
+
+  #eventSpecifikTitle {
+    line-height: 40px;
+    max-width: 500px;
+    text-align: left;
+    font-size: 40px;
+  }
+
+  #socialMediaIcons {
+    margin-top: 20px;
+  }
+
+  #arrowDownImg {
+    display: block;
+    width: 150px;
+  }
+
+  #eventDescriptionContainer {
+    padding-top: 200px;
+    /* padding-bottom: 60px; */
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  #arrowDownImg {
+    display: block;
+    width: 200px;
+  }
+}

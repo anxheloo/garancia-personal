@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="971" height="789" viewBox="0 0 971 789">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_752" data-name="Rectangle 752" width="971" height="789" transform="translate(-4723 -8297)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_523" data-name="Rectangle 523" width="1942.867" height="789.694" transform="translate(1012.303 998.047)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(4723 8297)" clip-path="url(#clip-path)">
+    <rect id="Rectangle_750" data-name="Rectangle 750" width="1942.866" height="789.694" transform="translate(-4723.836 -8296.954)" fill="#00b907"/>
+    <rect id="Rectangle_751" data-name="Rectangle 751" width="1942.866" height="789.101" transform="translate(-4723.837 -8296.952)" fill="#00b907"/>
+    <g id="Group_801" data-name="Group 801" transform="translate(-5736.14 -9295)">
+      <g id="Group_518" data-name="Group 518" clip-path="url(#clip-path-2)">
+        <path id="Path_325" data-name="Path 325" d="M1268.331,1298.539h117.243v-27.307H1268.331a50.941,50.941,0,0,0-50.884,50.884v82.454a50.941,50.941,0,0,0,50.884,50.884h.158c15.654,0,22.919-6.012,33.915-15.113,1.74-1.441,3.663-3.032,5.831-4.782l.372-.3,48.458-45.105v65.8h27.307V1345.413H1273.833v27.307h61.882l-45.014,41.9c-2.109,1.708-3.993,3.266-5.708,4.686-10.185,8.43-10.956,8.843-16.5,8.843h-.158a23.6,23.6,0,0,1-23.577-23.577v-82.454a23.6,23.6,0,0,1,23.577-23.577" fill="#00b907"/>
+        <path id="Path_326" data-name="Path 326" d="M2559.144,2135.474c-24.622-20.38-51.676-42.75-81.948-67.264l-656.74-611.287h834.372c401.762,0,728.62-325.908,728.62-726.507C3383.448,327.658,3055.785,0,2653.036,0H1132.787V391.982H2653.036c186.611,0,338.434,151.83,338.434,338.449,0,187.583-147.873,334.514-336.642,334.514H2276.139v-.123H1106.872V2651.539h391.979V1693.068l716.278,666.707,10.39,9.018c31.114,25.127,58.713,47.972,83.7,68.658,157.841,130.638,262.121,216.936,486.819,216.936h516.554V2262.409H2796.039c-79.628,0-90.7-5.927-236.9-126.935" fill="#dbff69"/>
+      </g>
+    </g>
+  </g>
+</svg>

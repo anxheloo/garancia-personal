@@ -1,0 +1,466 @@
+.secondPageProgram > div > .leftsection{
+    color: #00B907;
+    font-family: 'Memphis-Bold';
+    max-width: 100%;
+}
+.GreenBtn > div a {
+    background-color: #00B907;
+}
+
+.secondPageProgram > div > .leftsection p{
+    color:rgb(3, 62, 60);
+    width: 100%;
+    font-size: 30px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'Memphis-Bold';
+    padding-right: 7rem;
+}
+
+.secondPageProgram {
+    overflow: hidden;
+    background-color: #F8F6F0;
+}
+
+.secondPageProgram > div > .leftsection h1{
+    font-size: 78px;
+    line-height: 94px;
+    font-family: 'Memphis-ExtraBold';
+}
+
+.secondPageProgram > div > .leftsection{
+    padding: 9rem !important;
+}
+
+.secondPageProgram>div>.leftsection{
+    background-image: url('../../assets/img/Formimi/Group\ 519.png');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: #00B907;
+} 
+
+.rightsection1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightsection1{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.secondPage {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F8F6F0;
+}
+
+.secondPage h3{
+    color: #00B907;
+    font-family: 'Memphis-Bold';
+    font-size: 48px;
+    line-height: 58px;
+    width: 40%;
+    text-align: center;
+}
+
+.secondPage p{
+    font-family: 'Memphis-Bold';
+    font-size: 30px;
+    line-height: 36px;
+    width: 70%;
+    text-align: center;
+}
+
+.functionContainer{
+    padding: 270px 540px 360px 635px;
+    background-image:url('../../assets/img/Formimi/Group\ 800.svg') ;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.functionContainer a{
+    text-align: center;
+    color: white !important;
+    font-family: 'Memphis-Bold';
+    font-size: 48px;
+    line-height: 53px;
+    text-decoration: none;
+}
+.functionContainer a:hover{
+    color: white !important;
+}
+
+.sectionThree > div > .rightSection{
+    padding: 80px 80px 80px 180px;
+}
+.greenTitle >div >p {
+    color:#00B907 !important;
+}
+
+.sectionThree{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #F8F6F0;
+}
+
+.sectionThree > div > div h4 {
+    color:#00B907;
+    font-family: 'Memphis-ExtraBold';
+    padding-top: 100px;
+}
+
+.sectionThree > div > div h1, p  {
+    color:rgb(3, 62, 60);
+}
+
+.servicePage{
+    padding: 0;
+    overflow: hidden;
+}
+
+.firstSection {
+    align-items: center;
+}
+.firstSection p {
+    font-family: 'Grotesk';
+    color:rgb(3, 62, 60);
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.servicesProgram a {
+    display: flex;
+    font-family: 'Memphis-ExtraBold';
+    color:rgb(3, 62, 60) !important;
+    font-size: 26px;
+    line-height: 31px;
+    width: 70%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-decoration: none;
+}
+.programin img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceLeft{
+    background-color:#00B907;
+    padding: 100px 135px 50px 170px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.firstSection img{
+    max-width: 200px;
+    height: auto;
+    width: 100%;
+    background-color:#00B907;
+}
+
+.firstSection p {
+    color: white;
+    font-family: 'Memphis-ExtraBold';
+    padding-left: 5rem;
+}
+
+.serviceRight{
+    background-color: #E8FF88 !important;
+    padding: 180px 140px 140px 180px !important;
+}
+
+.servicesProgram{
+    padding-right: 7rem;
+    padding-top: 3rem;
+}
+
+.servicesProgram p{
+    padding: 1.3rem 1.3rem 1.3rem 0;
+    font-family: 'Memphis-ExtraBold';
+    width: 65%;
+}
+
+.servicesProgram hr{
+    border-bottom: 2px solid #033E3C;
+    height: 2px;
+    opacity: 1 !important;
+}
+.section5{
+    overflow: hidden !important;
+}
+
+.leftSection5{
+    background-color: #FEC8C5;
+    padding: 100px !important;
+}
+
+.section5 > div > .rightSection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section6{
+    overflow: hidden !important;
+}
+
+.section6 > div >.leftSection{
+    padding: 100px !important;
+    background-color: #FEC8C5;
+}
+
+.section6 > div > .rightSection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section7 {
+    overflow: hidden;
+    background-color: #F8F6F0;
+}
+
+.section7 > div >.leftSection {
+    padding: 100px;
+}
+
+.testimonialTitle > div > p{
+    font-size: 58px !important;
+    line-height: 60px !important;
+}
+.testimonialTitle2 > div > p{
+    font-size: 79px !important;
+    line-height: 88px !important;
+}
+.testimonialDesc2{
+    font-size: 33px;
+    line-height: 38px;
+}
+
+.learnmore{
+    font-family: 'Memphis-ExtraBold';
+    color: #000000;
+    font-size: 18px;
+}
+
+.photo_bg{
+    /* background-image: url('../assets/img/Page_2/2x/Asset\ 5@2x-100.jpg'); */
+    max-width: 1920px;
+    min-width: 1920px;
+    width: 100%;
+    max-height: 1300px;
+    min-height: 1030px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 992px) {
+    .desktopFixed {
+      position: fixed;
+      width: 100%;
+      z-index: 999999999999;
+      top: 0;
+    }
+    .secondPageProgram{
+        margin-top: 8rem;
+    }
+
+  }
+/* Tablet screens */
+@media only screen and (min-width:810px ) and (max-width: 1590px)  {
+    .servicesProgram p{
+        width: 100%;
+        font-family: 'Memphis-ExtraBold';
+    }
+    .secondPageProgram > div > .leftsection h1{
+        font-size: 48px;
+        line-height: 63px;
+        font-family: 'Memphis-ExtraBold';
+    }
+    .secondPageProgram > div > .leftsection p{
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    .functionContainer{
+        padding: 170px 340px 160px 335px;
+    }
+    .sectionThree > div > .rightSection{
+        padding: 100px 17px 100px 70px;
+    }
+
+    .serviceLeft{
+        background-color:#00B907;
+        padding: 100px 135px 50px 70px !important;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .serviceRight{
+        background-color: #fec8c5;
+        padding: 100px 50px 100px 50px !important;
+    }    
+    .secondPage h3{
+        font-size: 38px;
+        line-height: 42px;
+    }
+    
+    .secondPage p{
+        font-size: 27px;
+        line-height: 33px;
+    }
+    .firstSection p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .servicesProgram p{
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .learnmore{
+        font-size: 16px;
+    }
+    .testimonialTitle > div > p{
+        font-size: 33px !important;
+        line-height: 36px !important;
+    }
+    .testimonialTitle2 > div > p{
+        font-size: 33px !important;
+        line-height: 36px !important;
+    }
+    .testimonialDesc2{
+        font-size: 20px !important;
+    }
+    .servicesProgram a{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .serviceRight{
+        padding: 170px 50px 100px 50px !important;
+    }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 800px)  {
+    .leftsection h1{
+        margin-left: 3% !important;
+    }
+    .leftsection p{
+        margin-left: 3% !important;
+    }
+    .section5{
+        padding: 0;
+    }
+    .secondPage{
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+    }
+    .secondPage h3{
+        font-size: 35px;
+        line-height: 38px;
+        width: 100%;
+    }
+    
+    .secondPage p{
+        font-size: 25px;
+        line-height: 28px;
+        width: 100%;
+    }
+  
+    .secondPageProgram > div > .leftsection{
+        padding: 5.5rem !important;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .secondPageProgram > div > .leftsection h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .secondPageProgram > div > .leftsection p{
+        padding-right: 0;
+    }
+
+    .functionContainer{
+        padding: 50px;
+    }
+
+    .functionContainer a{
+        font-size: 35px;
+        line-height: 38px;
+        display: flex;
+    }
+
+    .sectionThree > div > .rightSection{
+        padding: 50px;
+    }
+
+    .firstSection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .firstSection p{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .servicesProgram {
+        padding: 0 !important;
+    }
+    .servicesProgram a{
+        padding: 1rem 0 1rem 0;
+        font-family: 'Memphis-ExtraBold';
+        width: 100%;
+        font-size: 22px;
+        font-family: 'Memphis-ExtraBold';
+    }
+
+    .serviceRight{
+        padding: 50px !important;
+    }
+
+    .serviceLeft{
+        background-color:#00B907;
+        padding: 50px !important;
+    }
+    .testimonialTitle > div > p{
+        font-size: 30px !important;
+        line-height: 33px !important;
+    }
+    .testimonialTitle2 > div > p{
+        font-size: 30px !important;
+        line-height: 33px !important;
+    }
+
+    .leftSection5{
+        background-color: #FEC8C5;
+        padding: 50px !important;
+    }
+
+    .section6 > div >.leftSection{
+        padding: 50px !important;
+    }
+
+    .section7 > div >.leftSection {
+        padding: 50px;
+    }
+    .greenLine{
+        height: 10px;
+        background-color: #dbff69;
+    }
+}
+/* Smaller mobile devices */
+@media only screen and (max-width: 380px)  {
+
+    .secondPageProgram > div > .leftsection{
+        padding: 4rem !important;
+    }
+}

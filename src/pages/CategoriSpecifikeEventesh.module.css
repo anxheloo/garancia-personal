@@ -1,0 +1,134 @@
+#section1 {
+  width: 100%;
+  height: 30vh;
+  background-color: #8f68cb;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#section1title {
+  font-family: "Memphis Bold";
+  font-size: 50px;
+  color: #dbff69;
+  text-transform: uppercase;
+  padding-left: 50px;
+  line-height: 60px;
+}
+
+#arrowup {
+  position: absolute;
+  right: 50px;
+  bottom: -5px;
+  width: 180px;
+  display: none;
+}
+
+#categories {
+  width: 100%;
+  background-color: #b382fe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#cardGridSection {
+  background-color: #f8f5ee;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#cardGridSectionSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#redPanairLogo {
+  width: 32px;
+}
+
+#section2Title {
+  font-family: "Memphis Extra Bold";
+  font-size: 24px;
+  color: #fe4b00;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#cardGridSectionSection2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-content: center;
+  /* background-color: red; */
+
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 300px));
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 20px; */
+}
+
+@media only screen and (min-width: 640px) {
+}
+
+@media only screen and (min-width: 768px) {
+  #cardGridSectionSection2 {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #cardGridSectionSection2 {
+    row-gap: 30px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+}
+
+@media only screen and (min-width: 1536px) {
+  #section1 {
+    height: 35vh;
+  }
+
+  #section1title {
+    font-size: 100px;
+    padding-left: 250px;
+  }
+
+  #arrowup {
+    display: block;
+  }
+
+  #cardGridSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
+    gap: 70px;
+  }
+
+  #cardGridSectionSection2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* column-gap: 20px; */
+    row-gap: 50px;
+  }
+
+  #section2Title {
+    font-size: 28px;
+  }
+
+  #redPanairLogo {
+    width: 46px;
+  }
+}

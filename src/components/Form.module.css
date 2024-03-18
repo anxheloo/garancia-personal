@@ -1,0 +1,85 @@
+.inputet{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #033E3C;
+    margin-right: 10px;
+    background-color: transparent;
+    width: 100%;
+    max-width: 25%;
+}
+.inputgrupet{
+    width: 100%;
+    display: flex;
+}
+.butonstyles{
+    background-color: #033E3C !important;
+    color: #dbff69 !important;
+    border: none;
+    border-radius: 0 !important;
+    width: max-content !important;
+    /* padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 46px !important;
+    padding-right: 46px !important; */
+    padding: 1rem 1.5rem !important;
+    gap: 5px;
+}
+.butonstyles p{
+    background-color: #033E3C !important;
+    color: #dbff69 !important;
+    border: none;
+    border-radius: 0 !important;
+    width: max-content !important;
+    font-family: 'Memphis Extra Bold';
+}
+.butonstyles:focus-visible{
+    outline: none !important;
+}
+.butonstyles:hover{
+    color: #dbff69 !important;
+    background-color: #033E3C !important;
+    border-color: transparent !important;
+}
+.butonstyles.btn-check:checked+.btn:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible, .btn:first-child:active:focus-visible, :not(.btn-check)+.btn:active:focus-visible{
+    box-shadow: none !important;
+}
+.butonstyles.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    border-color: transparent;
+}
+.inputet:focus{
+    outline: none;
+}
+.inputgrupet input::placeholder{
+    color: #033E3C;
+    font-size: 18px;
+    font-family: 'Grotesk';
+}
+.logo-eAlbania-contact{
+    width: 40px ;
+    height: 40px;
+}
+@media screen and (max-width: 768px) {
+    .inputgrupet{
+        flex-direction: column;
+    }
+    .inputet{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .butonstyles{
+        padding: 1rem 1.5rem !important;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1240px) {
+    .inputgrupet{
+        flex-direction: column;
+    }
+    .inputet{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .butonstyles{
+        padding: 1rem 1.5rem !important;
+    }
+}

@@ -1,0 +1,93 @@
+.ezpz {
+  background-color: #033e3c;
+}
+.colgreen {
+  color: #033e3c !important;
+}
+.grlogo {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
+nav .gr-logo {
+  width: 100px;
+}
+#navbarNav .nav-link {
+  color: white;
+  font-family: "Memphis Extra Bold";
+  cursor: pointer;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler-icon {
+  background-image: url("../assets/img/icons8-menu.svg") !important;
+}
+.backdcust {
+  background-color: #dbff69;
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
+#navbarNav .navbar-nav {
+  align-items: center;
+}
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+#accordionFlush .accordion-button:not(.collapsed) {
+  color: inherit;
+  background-color: inherit;
+  box-shadow: none !important;
+}
+#accordionFlush .accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color);
+}
+.curs-pointer {
+  cursor: pointer;
+}
+.logo-eAlbania {
+  width: 20px;
+  height: 24px;
+}
+.headerLogo {
+  gap: 10px;
+}
+.logo-eAlbania-contact {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .colgreen {
+    color: white !important;
+  }
+  .backdcust {
+    background-color: transparent !important;
+  }
+  .ezpz .container-fluid {
+    padding-left: 0 !important;
+  }
+  .ezpz button {
+    padding-right: 30px !important;
+  }
+  .menubashk {
+    width: 100%;
+    background: #032e2d !important;
+  }
+  .menurreth {
+    width: 100%;
+    border-top: 1px solid #032e2d;
+  }
+  .headerLogo p {
+    color: white !important;
+  }
+}

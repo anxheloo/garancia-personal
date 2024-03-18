@@ -1,0 +1,21 @@
+
+.thetitle {
+    color:#fe4b00;
+    font-family: 'Memphis-ExtraBold';
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* Tablet screens */
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .thetitle {
+        font-size: 16px;
+    }
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 800px)  {
+    .thetitle {
+        font-size: 16px;
+    }
+}

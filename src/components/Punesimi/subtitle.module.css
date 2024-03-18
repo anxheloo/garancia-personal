@@ -1,0 +1,23 @@
+
+.subtitle {
+    color:rgb(3, 62, 60);
+    font-family: 'Memphis-Bold';
+    width: 97%;
+    font-size: 78.5px;
+    line-height: 78px;
+}
+
+/* Tablet screens */
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .subtitle {
+        font-size: 33px !important;
+        line-height: 36px;
+    }
+}
+/* Mobile screens */
+@media only screen and (max-width: 800px)  {
+    .subtitle {
+        font-size: 30px !important;
+        line-height: 33px !important;
+    }
+}

@@ -1,0 +1,395 @@
+.secondPageProgram > div > .leftsection{
+  color:  #b382fe;
+  font-family: 'Memphis-Bold';
+  max-width: 100%;
+}
+
+.secondPageProgram > div > .leftsection p{
+  color:rgb(3, 62, 60);
+  width: 100%;
+  font-size: 30px;
+  line-height: 28px;
+  color: #000000;
+  font-family: 'Memphis-Bold';
+  padding-right: 7rem;
+}
+
+.secondPageProgram {
+  overflow: hidden;
+  background-color: #F8F6F0;
+}
+
+.secondPageProgram > div > .leftsection h1{
+  font-size: 78px;
+  line-height: 94px;
+  font-family: 'Memphis-ExtraBold';
+}
+
+.secondPageProgram > div > .leftsection{
+  padding: 9rem ;
+}
+
+.secondPageProgram>div>.leftsection{
+  background-image: url("../assets/img/Arsimi/Mask Group 1.svg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+} 
+.secondRow {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f8f6f0;
+}
+.secondRow h3 {
+  color: #b382fe;
+  font-family: "Memphis-Bold";
+  font-size: 48px;
+  line-height: 58px;
+  width: 77%;
+  text-align: center;
+}
+.secondRow p {
+  font-family: "Memphis-Bold";
+  font-size: 30px;
+  line-height: 36px;
+  width: 80%;
+  text-align: center;
+}
+.functionContainer {
+  padding: 270px 540px 360px 635px;
+  background-image: url("../assets/img/Arsimi/Group 795.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.functionContainer p {
+  text-align: center;
+  color: white;
+  font-family: "Memphis-Bold";
+  font-size: 48px;
+  line-height: 53px;
+}
+.functionContainer a{
+  text-decoration: none;
+
+}
+.sectionThird > div > .rightSection {
+  padding: 180px 140px 140px 180px;
+}
+.sectionThird {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #f8f6f0;
+}
+.rightSection h1 {
+  color: #b382fe !important;
+  font-family: "Memphis-ExtraBold";
+  font-size: 18px;
+  line-height: 20px;
+}
+.rightSection p {
+  color: rgb(3, 62, 60);
+  font-family: "Memphis-Bold";
+  width: 90%;
+  font-size: 70px;
+  line-height: 65px;
+}
+.rightSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.practiceBtn >div a{
+  background-color: #b382fe !important;
+}
+.practiceBtn{
+  margin-bottom: 2rem;
+}
+.arsim img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.serviceDiv {
+  padding: 0;
+  overflow: hidden;
+}
+.rightsection1 img {
+  max-width: 1000px;
+  max-height: 789px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.serviceLeftSide {
+  background-color: #b382fe;
+  padding: 100px 135px 50px 170px !important;
+  display: flex;
+  flex-direction: column;
+}
+.firstSection {
+  align-items: center;
+}
+.firstSection p {
+  font-family: "Grotesk";
+  color: rgb(3, 62, 60);
+  font-size: 32px;
+  line-height: 38px;
+  color: white;
+  font-family: "Memphis-ExtraBold";
+  padding-left: 5rem;
+}
+.servicesArsim a {
+  display: flex;
+  font-family: "Memphis-ExtraBold";
+  color: rgb(3, 62, 60) !important;
+  font-size: 26px;
+  line-height: 31px;
+  width: 70%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-decoration: none;
+}
+.servicesArsim {
+  padding-right: 7rem;
+  padding-top: 3rem;
+}
+.servicesArsim p {
+  padding: 1.3rem 1.3rem 1.3rem 0;
+  font-family: "Memphis-ExtraBold";
+  width: 65%;
+}
+.servicesArsim hr {
+  border-bottom: 2px solid #033e3c;
+  height: 2px;
+  opacity: 1 !important;
+}
+.firstSection img {
+  max-width: 200px;
+  height: auto;
+  width: 100%;
+  background-color: #ffffff00;
+}
+.serviceRight {
+  background-color: #fec8c5;
+  padding: 180px 140px 140px 180px !important;
+}
+.serviceRight h1 {
+  color: #b382fe !important;
+  font-family: "Memphis-ExtraBold";
+  font-size: 18px;
+  line-height: 20px;
+}
+.serviceRight p {
+  color: rgb(3, 62, 60);
+  font-family: "Memphis-Bold";
+  width: 100%;
+  font-size: 70px;
+  line-height: 65px;
+}
+.practiceBtn >div a{
+  background-color: #b382fe !important;
+}
+.secondPageProgram {
+  color: #fe4b00;
+  font-family: "Memphis-Bold";
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .desktopFixed {
+    position: fixed;
+    width: 100%;
+    z-index: 999999999999;
+  }
+  .fixedSpace{
+    margin-top: 8rem !important;
+  }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1390px) {
+  .leftsection p {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .leftsection{
+    padding-top: 6rem !important;
+    padding-left: 6rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .servicesArsim p {
+    width: 100%;
+    font-family: "Memphis-ExtraBold";
+  }
+  .secondPageProgram > div > .leftsection h1{
+    font-size: 48px;
+    line-height: 63px;
+    font-family: 'Memphis-ExtraBold';
+}
+  .secondPageProgram > div > .leftsection p{
+      font-size: 27px;
+      line-height: 30px;
+  }
+  .firstSection p {
+    padding-left: 3rem;
+  }
+
+  .functionContainer {
+    padding: 150px;
+  }
+  .sectionThird > div > .rightSection {
+    padding: 100px 17px 100px 70px;
+  }
+  .serviceLeftSide {
+    background-color: #b382fe;
+    padding: 100px 135px 50px 70px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .serviceRight {
+    background-color: #fec8c5;
+    padding: 100px 50px 100px 50px !important;
+  }
+  .serviceRight h1 {
+    font-size: 33px;
+    line-height: 36px;
+  }
+  .serviceRight > div p {
+    font-size: 33px;
+    line-height: 36px;
+  }
+  .secondPage h3 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .firstSection p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .servicesArsim p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .servicesArsim a {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* .serviceRight {
+    padding: 270px 50px 100px 50px !important;
+  } */
+  .rightSection h1 {
+    font-size: 16px;
+  }
+  .rightSection p {
+    font-size: 33px !important;
+    line-height: 36px;
+  }
+  .secondRow h3{
+    font-size: 38px ;
+    line-height: 44px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .serviceRight h1 {
+    font-size: 16px;
+  }
+  .practiceBtn{
+    margin-bottom: 1rem;
+  }
+  .serviceRight p {
+    font-size: 33px !important;
+    line-height: 36px;
+  }
+  .serviceRight button {
+    font-size: 14px !important;
+    line-height: 18px;
+  }
+  .rightSection button {
+    font-size: 14px !important;
+    line-height: 18px;
+  }
+  .rightSection p {
+    font-size: 30px !important;
+    line-height: 33px !important;
+  }
+  .rightSection h1 {
+    font-size: 16px;
+  }
+  .leftsection p {
+    padding-right: 0;
+  }
+  .secondRow {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  .secondRow h3 {
+    font-size: 35px;
+    line-height: 38px;
+    width: 100%;
+  }
+  .secondRow p {
+    font-size: 25px;
+    line-height: 28px;
+    width: 100%;
+  }
+  .secondPageProgram > div > .leftsection{
+    padding: 5.5rem !important;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.secondPageProgram > div > .leftsection h1{
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.secondPageProgram > div > .leftsection p{
+    padding-right: 0;
+}
+
+  .functionContainer {
+    padding: 50px;
+  }
+  .functionContainer p {
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .sectionThird > div > .rightSection {
+    padding: 50px !important;
+  }
+  .firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .firstSection p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .servicesArsim {
+    padding: 0 !important;
+  }
+  .servicesArsim a {
+    padding: 1rem 0 1rem 0;
+    font-family: "Memphis-ExtraBold";
+    width: 100%;
+    font-size: 22px;
+    font-family: "Memphis-ExtraBold";
+  }
+  .serviceRight {
+    padding: 50px !important;
+  }
+  .serviceLeftSide {
+    background-color: #b382fe;
+    padding: 50px !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .secondPageProgram > div > .leftsection {
+    padding: 4rem !important;
+  }
+}

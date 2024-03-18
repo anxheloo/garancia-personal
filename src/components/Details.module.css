@@ -1,0 +1,31 @@
+.wmaxcont{
+    width: max-content;
+    min-width: 100px;
+}
+.padbutton{
+    padding: 1rem 1.5rem;
+    font-family: 'Memphis Extra Bold';
+}
+.homepagaBtn { 
+    color:white !important ;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+
+    .wmaxcont{
+     width: 100%;
+    text-align: center;
+    }
+}
+@media  screen and (min-width: 769px) and (max-width: 1045px) {
+   .wmaxcont{
+    width: auto;
+   }
+}
+@media  screen and (min-width: 1044px) and (max-width: 1144px) {
+    .wmaxcont{
+        width: auto;
+        text-align: center;
+        min-width: 100px;
+    }
+ }

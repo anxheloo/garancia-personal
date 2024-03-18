@@ -1,0 +1,333 @@
+.coverImg{
+    width: 100%;
+    max-height: 900px;
+    height: 100%;
+    object-fit: cover;
+    min-height: 783px;
+}
+.ProfPracticesCon{
+    display: flex;
+    background-color: #FE4B00;
+    padding: 150px 0 !important;
+}
+.ProfPracticeDescCon{
+    padding-right: 400px !important;
+}
+.arrowImg{
+    padding-left: 100px;
+}
+.arrowImg {
+   max-width: 320px !important;
+   width: 100%;
+   max-height: 250px !important;
+   height: 100%;
+}
+.adviceCon{
+    background-color: #FE4B00;
+    padding-top: 80px;
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.adviceConDesc{
+    padding: 0px 100px 100px 100px;
+}
+.title{
+    color: #033E3C;
+    font-size: 78px;
+    line-height: 80px;
+    font-family: "Memphis Bold";
+    padding-bottom: 40px;
+}
+.desc{
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: "Grotesk";
+    padding-right: 60px;
+}
+.desc a{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.desc a:hover{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.ProfPracticesDesc{
+    padding-left: 100px;
+}
+.stripeCon{
+    background-color: #FEC8C5;
+}
+.stripeTitle{
+    font-size: 51px;
+    line-height: 65px;
+    padding: 80px 0px;
+    color: #033E3C;
+    font-family: "Memphis Bold";
+    text-align: center;
+}
+.img1{
+    max-height: 375px;
+    max-width: 475px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.img2{
+    max-height: 250px;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.ListTitle{
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Memphis Bold";
+    color: #033E3C;
+}
+
+.Listdesc{
+    font-size: 32px;
+    line-height: 38px;
+    font-family: "Grotesk";
+    color: #033E3C;
+}
+
+.ListCon{
+    padding-bottom:80px !important;
+    padding-left: 600px !important;
+    padding-right: 400px !important;
+}
+
+.ListImgCon{
+    padding-right: 95px !important;
+}
+.ListImg{
+    padding-right: 95px !important;
+}
+.CareerAdvicePhoto{
+    max-height: 720px;
+    min-height: 720px;
+    height: 100%;
+    max-width: 655px;
+    min-width: 655px;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+.descCareerAd{
+    font-family: 'Memphis-ExtraBold';
+    font-size: 32px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 9.5rem;
+    left: 3.3rem;
+}
+.imgAdCareer {
+    padding-top: 5.5rem;
+    max-width: 210px;
+    min-width: 210px;
+    width: 100%;
+}
+.CareerAdviceCon {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@media  screen and (min-width: 1360px) and (max-width: 1600px) {
+    .CareerAdvicePhoto{
+        max-width: 550px;
+        min-width: 550px;
+        width: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
+}
+/* Tablet screens */
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .desc{
+        padding-right: 50px;
+    }
+    .title{
+        font-size: 38px !important;
+        line-height: 40px;
+    }
+    .ListCon{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+
+    .ListImg{
+        padding-right: 0px !important;
+    }
+    .ListImgCon{
+        padding-right: 0px !important;
+    }
+    .ProfPracticeDescCon{
+        padding-right: 100px !important;
+    }
+    .img1{
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .img2{
+        display: none;
+    }
+    .imgAdCareer {
+        padding-top: 1.5rem !important;
+        max-width: 150px;
+        min-width: 150px;
+        width: 100%;
+    }
+    .CareerAdviceCon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }   
+    .descCareerAd{
+        top: 0rem;
+        left: 0rem;
+        position: inherit;
+    }
+    .CareerAdvicePhoto{
+        min-width: 500px;
+        min-height: 0;
+    }
+    .desc a {
+        font-size:28px !important;
+    }
+    .stripeTitle{
+        font-size: 38px;
+        line-height: 50px;
+    }
+ 
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 800px)  {
+    .coverImg{
+        min-height: 300px;
+    }
+    .ProfPracticesCon{
+        padding: 50px 3rem !important;
+        flex-direction: column;
+    }
+    .arrowImg{
+        padding-left: 0px;
+    }
+    .arrowImg img{
+        max-width: 150px !important;
+        width: 100% !important;
+        max-height: 150px !important;
+        height: 100% !important;
+    }
+    .title{
+        color: #033E3C;
+        font-size: 40px;
+        line-height: 50px;
+        font-family: "Memphis Bold";
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .desc{
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Grotesk";
+        padding-right: 0rem !important;
+    }
+    .desc a{
+        color: #FFFFFF;
+        font-weight: bolder;
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    .ProfPracticesDesc{
+        padding-left: 0px;
+    }
+    .ProfPracticesCon img{
+        max-width: 200px;
+        height: auto;
+        width: 100%;
+    }
+    .ProfPracticeDescCon{
+        padding-right:0px !important;
+    }
+    .stripeTitle{
+        font-size: 24px;
+        line-height: 35px;
+        padding: 40px 3rem;
+    }
+    .img1{
+        max-height: 150px;
+        max-width: 170px;
+        width: 100%;
+        height: 100%;
+    }
+    .img2{
+        display: none;
+    }
+    .adviceConDesc{
+        padding: 2rem;
+    }
+    
+    .Listdesc{
+        font-size: 29px;
+        line-height: 34px;
+    }
+    .ListCon{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .ListImgCon{
+        padding-right: 0px !important;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .ListImg{
+        padding-right: 0px !important;
+        max-width: 115px;
+        width: 100%;
+        max-height: 200px;
+        height: 100%;
+    }
+    .adviceCon{
+        padding-top: 30px;
+    }
+    .CareerAdvicePhoto{
+        max-height: 400px;
+        min-height: 400px;
+        max-width: 600px;
+        min-width: 300px;
+    }
+    .descCareerAd{
+        font-size: 28px;
+        line-height: 30px;
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+    }
+    .imgAdCareer {
+        padding-top: 1.5rem !important;
+        max-width: 150px;
+        min-width: 150px;
+        width: 100%;
+    }
+    .CareerAdviceCon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }    
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Grotesk';
+    src: url('../../assets/fonts/NHaasGroteskDSPro-55Rg.ttf');
+}
+@font-face {
+    font-family: 'Memphis-Bold';
+    src: url('../../assets/fonts/MemphisLTStd-Bold.otf');
+}
+
+.pages_button a{
+    color:white !important;
+    background-color:#fe4b00;
+    border: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Memphis-ExtraBold' !important;
+    padding: 1rem 1.5rem ;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+}
+.pages_button {
+    padding-top: 4rem;
+}
+
+.pages_button:hover{
+    color:white;
+}
+
+
+/* Tablet screens */
+@media only screen and (min-width:810px ) and (max-width: 1390px)  {
+    .pages_button a {
+        font-size: 14px !important;
+        line-height: 18px;
+    }
+    .pages_button {
+        padding-top: 0;
+    }
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 800px)  {
+    .pages_button a{
+        font-size: 16px !important;
+        line-height: 18px;
+    }
+    .pages_button {
+        padding-top: 1.5rem;
+    }
+}

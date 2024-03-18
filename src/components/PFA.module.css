@@ -1,0 +1,51 @@
+.colpun{
+    color: #dbff69;
+    background-color: #fe4b00;
+    font-weight: 700;
+    align-items: center;
+    font-family: 'Memphis Extra Bold'
+}
+.colpun:hover{
+    color: #dbff69;
+}
+.colprof{
+    background-color: #dbff69;
+    font-weight: 700;
+    color: #033e3c;
+    align-items: center;
+    font-family: 'Memphis Extra Bold'
+}
+.colprof:hover{
+    color: #033e3c;
+}
+.colarsim{
+    background-color: #b382fe;
+    color: #fec8c5;
+    font-weight: 700;
+    align-items: center;
+    font-family: 'Memphis Extra Bold'
+}
+.colarsim:hover{
+    color: #fec8c5;
+}
+.cursorpointer{
+    cursor: pointer;
+}
+.PFAContainer a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .colpun{
+        font-family: 'Memphis Extra Bold';
+        font-size: 13px;
+    }
+    .colprof{
+        font-family: 'Memphis Extra Bold';
+        font-size: 13px;
+    }
+    .colarsim{
+        font-family: 'Memphis Extra Bold';
+        font-size: 13px;
+    }
+}
