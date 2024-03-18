@@ -65,16 +65,10 @@
 #cardGridSectionSection2 {
   display: grid;
   grid-template-columns: auto auto;
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 370px)); */
   column-gap: 10px;
   row-gap: 20px;
   justify-content: center;
-  /* background-color: red; */
-
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 300px));
-  justify-content: center;
-  column-gap: 10px;
-  row-gap: 20px; */
 }
 
 @media only screen and (min-width: 640px) {
@@ -118,9 +112,7 @@
   }
 
   #cardGridSectionSection2 {
-    display: grid;
     grid-template-columns: auto auto auto auto;
-    /* column-gap: 20px; */
     row-gap: 50px;
   }
 
